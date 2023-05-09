@@ -1,0 +1,96 @@
+/* General */
+* {
+    font-family: 'Darumadrop One', cursive;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+/* Menu */
+nav {
+    background-color: #BDA18A;
+}
+
+.navbar-brand {
+    /* padding-top: 0;
+    padding-left: 15px; */
+    font-size: 32px;
+    font-weight: lighter;
+    color: #222;
+}
+
+.navbar-toggler {
+    /* margin-right: 15px; */
+    border: 2px solid;
+}
+
+.nav-link {
+    /* padding-left: 15px; */
+    font-size: 20px;
+}
+
+/* Content */
+.content {
+    padding-top: 20vh;
+}
+
+.catchphrase {
+    text-align: center;
+}
+
+.P {
+    font-size: 20px;
+    text-align: center;
+}
+
+.row {
+    align-items: center;
+}
+
+.sleeping {
+    max-width: 80vw;
+    max-height: auto;
+}
+
+.gamer {
+    max-width: 80vw;
+    max-height: auto;
+}
+
+.hydro {
+    max-width: 80vw;
+    max-height: auto;
+}
+
+.animals {
+    max-width: 80vw;
+    max-height: auto;
+}
+
+hr {
+    border: 10px solid #BDA18A;
+    opacity: 100%;
+}
+
+/* Animations */
+.info {
+    transform: translateX(100vw);
+    transition: transform 0.6s ease;
+}
+
+.info:nth-of-type(even) {
+    transform: translateX(-100vw);
+}
+
+.info.show {
+    transform: translateX(0);
+}
